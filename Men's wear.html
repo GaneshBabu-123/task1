@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Wear Section</title>
+    <style>
+
+h1 {
+            background-color: red; /* Set the background color */
+            color: blue;  /* Change text color for contrast */
+            padding: 20px;    /* Add padding for spacing */
+            text-align: left; /* Center-align the text */
+           
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+            
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .product-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .product-card p {
+            color: #777;
+            font-size: 14px;
+        }
+        .price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #28a745;
+            margin: 10px 0;
+        }
+        .buy-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Men's Wear</h1>
+        <div class="product-section">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="t-shirt.jpg" alt="T-Shirt">
+                <h3>Classic T-Shirt</h3>
+                <p>Soft cotton, available in multiple colors.</p>
+                <p class="price">₹500</p>
+                <a href="payment.html" class="buy-btn">Buy Now</a>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="jeans.jpg" alt="Jeans">
+                <h3>Blue Denim Jeans</h3>
+                <p>Regular fit, durable material.</p>
+                <p class="price">₹700</p>
+                <a href="payment.html" class="buy-btn">Buy Now</a>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="shirt.jpg" alt="Shirt">
+                <h3>Formal Shirt</h3>
+                <p>Crisp, wrinkle-free fabric.</p>
+                <p class="price">₹599</p>
+                <a href="payment.html" class="buy-btn">Buy Now</a>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="jacket.jpg" alt="Jacket">
+                <h3>Leather Jacket</h3>
+                <p>Genuine leather, stylish design.</p>
+                <p class="price">₹1299</p>
+                <a href="payment.html" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
